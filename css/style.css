@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,700&display=swap');
-@font-face {
-    font-family: 'Match';
-    src: url('/fonts/MatchBold.woff2') format('woff2'),
-        url('/fonts/MatchBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *,
 *::before,
@@ -19,66 +12,115 @@ box-sizing: border-box;
 .wrapper{
     min-height: 100%;
     overflow:hidden;
-    font-size: 20px;
-    margin: 30px;
+    font-size: 16px;
 }
-header{
-    font-family: 'Match';
+.logo{
+    margin-left: 87px;
+    margin-top: 100px;
+}
+.text_1{
+    font-family: "Roboto" ;
+    color: rgba(2, 19, 60, 1);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 583px;
+    max-height: 134px;
+    margin-left: 87px;
+    margin-top: 33px;
+}
+.text_2{
+    font-family: "Roboto" ;
+    font-size: 16px;
+    max-width: 846px;
+    max-height: 76px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin-left: 87px;
+    margin-top: 35px;
+    color: #4B4B4B;
+}
+.motor{
+max-width: 846px;
+max-height: 563px;
+margin-top: 54px;
+margin-left: 87px;
+}
+.card{
     display: inline-block;
+    max-height: 340px;
+    max-width: 324px;
+    background-color: rgba(211, 207, 207, 0.247);
+    margin: 24px 24px 24px 87px;
+    padding: 50px 44px 50px 43px;
 }
-body{
-   font-family: 'Lato'; 
+.pre{
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    margin: 33px 0px 20px;
 }
-.block{
-    display: inline-block;
-    background-color: rgba(83, 58, 20, 0.521);
-    margin: 20px;
-    padding: 20px 10px;
-    width: 300px;
-    border-top: 7px dotted black;
-    border-bottom: 7px dotted black;
-    border-left: 7px dashed white;
-    border-right: 7px dashed white;
+.wor{
+    font-family: "Roboto";
+    font-weight: normal;
+    text-align: center;
 }
-.block_2{
-    display: inline-block;
-    background-color: rgba(83, 58, 20, 0.521);
-    margin: 20px;
-    padding: 20px 10px;
-    width: 300px;
-    border-radius: 10px 80px 40px 60px;
+.icon{
+    display: block;
+    margin: 0 auto;
 }
-.block_3{
-    display: inline-block;
-    padding: 15px 25px;
-    background-color: rgba(153, 153, 153, 0.301);
-    border-radius: 30px;
-    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.616);
-    text-decoration: none;
-    color: black;
+#te_1{
+    font-family: "poppins";
+    font-weight: 600;
+    font-size:32px;
+    line-height: 48px;
+    margin: 19px 100px 26px;
 }
-#first{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: teal;
+#te_2{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 26px 100px 19px;
 }
-#second{
-   color: rgba(0, 0, 0, 0.5); 
+#ma_1{
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+    max-width: 1039px;
+    max-height: 2540,59px;
+    margin: 19px 100px;
 }
-#third{
-    border: 5px solid black;
+ul {
+  list-style-type: none;
 }
-#fourth{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(248, 248, 248);
-    border-top: 12px dotted rgb(173, 156, 81);
-    border-bottom: 12px ridge rgb(61, 95, 146) ;
-    border-left: 12px dashed rgb(146, 60, 113);
-    border-right: 12px double rgb(94, 139, 64);
+.quality{
+    display: block;
+    max-height: 681px;
+    max-width: 872px;
+    margin: 40px 100px;
+    background-color: rgba(211, 211, 211, 0.281);
 }
-#five{
-    text-decoration: none;
-    text-shadow: black 2px 3px 3px;
+#star{
+    padding-top:137px ;
+    padding-left: 46px;
+}
+#high{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    margin: 9px 0px 25px;
+    max-width: 465px;
+    padding-left: 46px;
+}
+#text{
+    padding-left: 46px;
+    max-width: 436px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 137px;
 }
